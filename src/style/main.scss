@@ -1,0 +1,11 @@
+h1 {
+    display: grid;
+    align-content: center;
+    align-items: center;
+}
+
+.app-wrapper-footer {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+
+}
