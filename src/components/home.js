@@ -10,8 +10,8 @@ export default class Home extends Component {
       <div>
         <Main />
         <Footer />
-        <link rel="stylesheet" type="text/css" href="background.scss" />
-        {/* <Background /> */}
+        {/* <link rel="stylesheet" type="text/css" href="background.scss" /> */}
+        {/* <BackgroundSlideShow /> */}
       </div> 
     );
   }

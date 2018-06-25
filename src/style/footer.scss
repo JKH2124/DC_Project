@@ -1,0 +1,50 @@
+// // .app-wrapper-footer a {
+// //     display: grid;
+// //     justify-content: space-around;
+// //     padding-left: 10px;
+// //     color: lightseagreen;
+// //     font-size: 18px;
+// //     border: 2px solid lightblue;
+// //     border-width: 1.5px;
+// //     background-color: black;
+// }
+
+.app-wrapper-footer {
+    display: grid;
+    width: 100vw;
+    height: 50px;
+    grid-template-columns: 4fr 20fr 2.0fr 2.0fr 2.0fr;
+    align-content: center;
+    background-color: black;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 20px;
+
+    .advertising_left {
+        justify-self: center;
+    }
+    
+    .fun_times {
+        padding-left: 70px;
+    }
+
+    .privacy_right {
+        justify-self: center;
+    }
+
+    .terms_right {
+        justify-self: center;
+    }
+
+    .comics_right {
+        justify-self: center;
+    }
+}
+
+.app-wrapper-footer a:hover {
+    text-decoration: none;
+    color: powderblue;
+}
+.advertising_left a :hover {
+    text-decoration: none;
+    text-decoration-line: none;
+}
