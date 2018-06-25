@@ -12,7 +12,11 @@ export default class Footer extends Component {
                 <span className='fun_times'>
                     <a href='https://www.imdb.com/title/tt1133985/'>Just Don't Go There...</a>
                 </span>
-
+                <span className='dc_logo'>
+                    <a href="https://www.dccomics.com/">
+                        <img src="assets/dc_image.jpg" />
+                    </a>
+                </span>
                 <span className='privacy_right'>
                     <a href='https://policies.warnerbros.com/privacy/en-us/html/privacy_en-us_1.0.0.html'>Privacy</a>
                 </span>

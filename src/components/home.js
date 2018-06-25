@@ -7,7 +7,7 @@ import Footer from './footer';
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="home-grid">
         <Main />
         <Footer />
         {/* <link rel="stylesheet" type="text/css" href="background.scss" /> */}

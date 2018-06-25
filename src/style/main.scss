@@ -1,5 +1,6 @@
-h1 {
+.home-grid {
+    height: 100vh;
     display: grid;
-    align-content: center;
-    align-items: center;
+    grid-template-rows: 1fr 2fr;
+
 }

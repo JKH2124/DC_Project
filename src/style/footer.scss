@@ -12,12 +12,14 @@
 .app-wrapper-footer {
     display: grid;
     width: 100vw;
-    height: 50px;
-    grid-template-columns: 4fr 20fr 2.0fr 2.0fr 2.0fr;
+    height: 75px;
+    grid-template-columns: 4fr 8fr 7fr 2fr 2fr 2fr;
     align-content: center;
-    background-color: black;
+    align-items: center;
+    // background-color: transparent;
     font-family: 'Racing Sans One', cursive;
     font-size: 20px;
+    align-self: end;
 
     .advertising_left {
         justify-self: center;
@@ -27,16 +29,31 @@
         padding-left: 70px;
     }
 
+    .dc_logo img {
+        height: 50px;
+        width: 95px;
+        margin-left: 35px;
+    }
+
     .privacy_right {
         justify-self: center;
     }
-
+        .privacy_right a {
+            color: white;
+        }
+    
     .terms_right {
-        justify-self: center;
+        justify-self: center; 
     }
+        .terms_right a {
+            color: white; 
+        } 
 
     .comics_right {
         justify-self: center;
+    }
+        .comics_right a {
+            color: white;
     }
 }
 
