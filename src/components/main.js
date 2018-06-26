@@ -10,7 +10,7 @@ export default class Main extends Component {
             <div>
                 <img className="main_image" src="assets/leagueOne.jpg" />
                 <div className="heading">Detective Comics</div>
-                <div className="quote">You will give the people of Earth an ideal to strive towards. - Jor-El</div>
+                <div className="quote">You will give the people of Earth an ideal to strive towards. - Jor-El (Except the people of Marvel)</div>
                 
             </div>
         </div>

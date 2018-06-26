@@ -5,7 +5,7 @@ import Home from './components/home';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './style/main.scss';
-import './style/background.scss';
+
 
 function main() {
   ReactDOM.render(

@@ -7,14 +7,14 @@ export default class Footer extends Component {
         return (
             <div className='app-wrapper-footer'>
                 <span className='advertising_left'>
-                    <a href='https://marvel.com/avengers'>For Best Content... Click Here!</a>
+                    <a href='https://marvel.com/avengers'>Best Content</a>
                 </span>
                 <span className='fun_times'>
-                    <a href='https://www.imdb.com/title/tt1133985/'>Just Don't Go There...</a>
+                    <a href='https://www.imdb.com/title/tt1133985/'>Don't Go There</a>
                 </span>
                 <span className='dc_logo'>
                     <a href="https://www.dccomics.com/">
-                        <img src="assets/dc_image.jpg" />
+                        <img src="assets/dc_image.png" />
                     </a>
                 </span>
                 <span className='privacy_right'>
