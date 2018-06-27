@@ -1,14 +1,3 @@
-// // .app-wrapper-footer a {
-// //     display: grid;
-// //     justify-content: space-around;
-// //     padding-left: 10px;
-// //     color: lightseagreen;
-// //     font-size: 18px;
-// //     border: 2px solid lightblue;
-// //     border-width: 1.5px;
-// //     background-color: black;
-// }
-
 .app-wrapper-footer {
     display: grid;
     width: 100vw;
@@ -23,45 +12,67 @@
 
     .advertising_left {
         justify-self: center;
+        text-decoration: underline;
+    }
+    .advertising_left a {
+        color: whitesmoke;
+        text-decoration: underline;
     }
     
     .fun_times {
         padding-left: 70px;
+        text-decoration: underline;
+    }
+        .fun_times a {
+             color: whitesmoke;
+             text-decoration: underline;
     }
 
     .dc_logo img {
         height: 50px;
         width: 95px;
-        margin-left: 35px;
+        margin-left: 5px;
     }
 
     .privacy_right {
-        justify-self: center;
+        // justify-self: center;
+        color: whitesmoke;
+        text-decoration: underline;
     }
         .privacy_right a {
-            color: white;
+            color: whitesmoke;
+            text-decoration: underline;
         }
     
     .terms_right {
-        justify-self: center; 
+        // justify-self: center;
+        text-decoration: underline; 
     }
         .terms_right a {
-            color: white; 
+            color: whitesmoke;
+            text-decoration: underline; 
         } 
 
     .comics_right {
-        justify-self: center;
+        // justify-self: center;
+        text-decoration: underline;
     }
         .comics_right a {
-            color: white;
+            color: whitesmoke;
+            text-decoration: underline;
     }
 }
 
 .app-wrapper-footer a:hover {
     text-decoration: none;
-    color: powderblue;
+    color: whitesmoke;
+    
 }
 .advertising_left a :hover {
     text-decoration: none;
-    text-decoration-line: none;
+    
+}
+
+.dc_logo {
+    
 }
