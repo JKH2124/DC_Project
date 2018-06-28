@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 
 import Header from "./header";
-import Main from "./main";
+import Hero from "./hero";
 import Footer from "./footer";
 
-export default class Home extends Component {
+export default class HeroPage extends Component {
   render() {
     return (
       <div>
         <Header />
-        <Main />
+        <Hero />
         <Footer />
       </div>
     );

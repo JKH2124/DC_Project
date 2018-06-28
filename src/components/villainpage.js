@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Header from "./header";
-import Main from "./main";
+import Villain from "./villain";
 import Footer from "./footer";
 
 export default class Home extends Component {
@@ -9,7 +9,7 @@ export default class Home extends Component {
     return (
       <div>
         <Header />
-        <Main />
+        <Villain />
         <Footer />
       </div>
     );

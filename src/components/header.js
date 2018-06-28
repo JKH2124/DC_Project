@@ -50,29 +50,6 @@ class Header extends Component {
             >
               &times;
             </a>
-            {/* <a href="#">Home</a>
-            <a href="#">Super-Heroes</a>
-            <a href="#">Villains</a>
-            <a />
-            <a />
-            <a />
-            <a />
-            <a />
-            <a />
-            <a />
-            <a />
-            <a />
-            <a />
-            <a />
-            <a />
-            <a />
-            <a />
-            <a />
-            <a />
-            <a />
-            <a />
-            <a />
-            <a /> */}
           </div>
         </div>
         <AnimateHeight duration={700} height={this.state.height}>
